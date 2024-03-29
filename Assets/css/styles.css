@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+    color: black;
+}
+ul{
+    text-align: center;
+    padding: 40px;
+}
+li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px, 30px;
+    margin: 2em;
+}
+li a:hover{
+    color: red;
+    font-size: 21px;
+    text-decoration: none;
+    list-style-type: none;
+}
+hr{
+    border: none;
+}
+p{
+    font-size: 20px;
+}
+h3{
+    font-size: 22px;
+}
+#menu{
+    background-image: linear-gradient(to bottom, #e0e4ce, #e0e4ce, transparent);
+}
+#encabezado{
+    color: white;
+    background-image: linear-gradient(to bottom, #2d3839, #114d4d, #6e9987, #e0e4ce);
+    height: 550px;
+}
+.contenido img:hover{
+    transform: scale(1.1);
+}
+#chevroletBG{
+    width: 1850px;
+    margin: 25px;
+    border-radius: 40px;
+    background: #f3f3f3;
+    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+}
+#toyotaBG{
+    width: 1850px;
+    margin: 25px;
+    border-radius: 40px;
+    background: #f3f3f3;
+    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+}
+#bmwBG{
+    width: 1850px;
+    margin: 25px;
+    border-radius: 40px;
+    background: #f3f3f3;
+    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+}
+#mercedesBG{
+    width: 1850px;
+    margin: 25px;
+    border-radius: 40px;
+    background: #f3f3f3;
+    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+}
+#contactoBG{
+    margin-top: 100px;
+}
