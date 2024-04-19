@@ -41,37 +41,64 @@ h3{
     background-image: linear-gradient(to bottom, #2d3839, #114d4d, #6e9987, #e0e4ce);
     height: 550px;
 }
-.contenido img:hover{
-    transform: scale(1.1);
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    text-align: justify;
+    margin: 5px;
 }
-#chevroletBG{
-    width: 1850px;
-    margin: 25px;
-    border-radius: 40px;
-    background: #f3f3f3;
-    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+.card {
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
 }
-#toyotaBG{
-    width: 1850px;
-    margin: 25px;
-    border-radius: 40px;
-    background: #f3f3f3;
-    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+.card:hover {
+    scale: 1.02;
 }
-#bmwBG{
-    width: 1850px;
-    margin: 25px;
-    border-radius: 40px;
-    background: #f3f3f3;
-    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+.card image {
+    background-color: #ffff;
 }
-#mercedesBG{
-    width: 1850px;
-    margin: 25px;
-    border-radius: 40px;
-    background: #f3f3f3;
-    box-shadow: 5px 5px 5px #5a5a5a, -5px -5px 5px #ffffff;
+.title {
+    color: white;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #114d4d;
+    font-size: 24px;
 }
-#contactoBG{
-    margin-top: 100px;
+.title2 {
+    color: #ffff;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(to left, transparent, #6e9987, transparent);
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: #ffff;
+    background-color: #114d4d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover {
+    opacity: 0.7;
+}
+footer {
+    background-image: linear-gradient(to bottom,transparent, #e0e4ce, #6e9987);
+    text-align: center;
+}
+h5 {
+    color: #ffff;
+    text-align: left;
 }
