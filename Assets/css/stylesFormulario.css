@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: auto;
+    font-size: 16px;
+
+}
+body {
+    text-align: center;
+    background-color: #000;
+}
+h1 {
+    padding-top: 20px;
+}
+.contenedor {
+    margin: auto;
+    margin-top: 150px;
+    background-color: lemonchiffon;
+    width: 900px;
+    height: 600px;
+    border: 5px solid black;
+}
+.nombre {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.nombre input {
+    width: 420px;
+    height: 25px;
+    margin-left: 20px;
+}
+.fechaNacimiento {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.fechaNacimiento input {
+    width: 150px;
+    margin-left: 20px;
+    height: 25px;
+}
+.lugarNacimiento {
+    font-weight: bold;
+    text-align: right;
+    margin-top: -130px;
+    padding-right: 225px;
+    margin-bottom: 100px;
+}
+.lugarNacimiento select{
+    width: 155px;
+    margin-left: 20px;
+    height: 25px;
+}

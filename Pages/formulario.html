@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../Assets/css/stylesFormulario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <section>
+            <form action="https://formsubmit.co/microinformaticamx@gmail.com" method="POST">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Nombre :" placeholder="Escribe aquí tu nombre" required>
+                </div>
+                <br>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" name="fechaNac" id="fechaNac" placeholder="día-mes-año" required>
+                <br>
+                <label for="sexo">Sexo</label>
+                <input type="radio" name="sexo" id="sexo" value="Masculino" required>
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="sexo" value="Femenino" required> 
+                <label for="sexo">Femenino</label>
+                <br>
+                <label for="lugar">Lugar de nacimientoi</label>
+                <select name="lugar" id="lugar">
+                    <option value="Escuinapa">Escuinapa</option>
+                    <option value="Mazatlan">Mazatlán</option>
+                    <option value="Culiacan">Culiacán</option>
+                    <option value="Guamuchil">Guámuchil</option>
+                    <option value="Guasave">Guasave</option>
+                    <option value="Los Mochis"></option>
+                </select>
+                <label for="poblacion">Población</label>
+                <input type="text" id="poblacion" name="poblacion" required>
+                <br>
+                <label for="idioma">Que idiomas habla</label>
+                <li>
+                    <label for="español">Español</label>
+                    <input type="checkbox" name="idioma" id="idioma" value="Español">
+                    <label for="ingles">Inglés</label>
+                    <input type="checkbox" name="idioma" id="idioma" value="Inglés">
+                    <label for="frances">Francés</label>
+                    <input type="checkbox" name="idioma" id="idioma" value="Francés">
+                </li>
+                <br>
+                <label for="correo">Email:</label>
+                <input type="email" name="correo" id="correo" placeholder="tucorreo@dominio.com" required>
+                <br>
+                <label for="fecEgreso">Año y mes de Egreso</label>
+                <input type="month" name="mes Egreso" id="mes" required>
+                <br>
+                <label for="habitos">Habitos personales</label>
+                <br>
+                <textarea name="habitos" id="habitos" cols="30" rows="10">Escribir aquí hábitos personales</textarea>
+                <br>
+                <label for="nivelIngreso">Nivel de ingreso</label>
+                <input type="range" name="nivelIngreso" id="nivelIngreso" list="ingresosList" min="5000" max="50000" value="25000">
+                <br>
+                <datalist id="ingresosList">
+                    <option value="5000"></option>
+                    <option value="10000"></option>
+                    <option value="15000"></option>
+                    <option value="20000"></option>
+                    <option value="25000"></option>
+                    <option value="30000"></option>
+                    <option value="35000"></option>
+                    <option value="40000"></option>
+                    <option value="45000"></option>
+                    <option value="50000"></option>
+                </datalist>
+                <label for="ingresoListq" id="datosList"> 5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 </label>
+                <br>
+                <label for="hora">Horario disponible</label>
+                <br>
+                <input type="time" name="Horario disponible " id="inicio" required>
+                <h2>A</h2>
+                <input type="time" name="Horario disponible " id="fin" required>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
