@@ -32,6 +32,73 @@
             <button id="btnCalcular">Calcular</button>
             <button id="btnLimpiar">Limpiar</button>
         </section>
+        <section class="contenedor2">
+            <header>
+                <h3>Operaciones aritmeticas</h3>
+                <h4>Usando combo Box</h4>
+            </header>
+            <hr>
+            <br>
+            <select name="Opcion" id="idOpcion">
+                <option value="1">Suma
+                    <option value="2">Resta</option>
+                    <option value="3">Multiplicacion</option>
+                    <option value="4">Divicion</option>
+                </option>
+            </select>
+            <br>
+            <br>
+            <input class="input2" type="number" name="idNumero1" id="idNumero1" required placeholder="Captura el primer Valor Numerico">
+            <br>
+            <input class="input2" type="number" name="idNumero2" id="idNumero2" required placeholder="Captura el segundo Valor Numerico">
+            <br>
+            <br>
+            <label for="">Resultado</label>
+            <input class="input2" type="text" name="" id="idResultado" readonly>
+            <br>
+            <button id="btnCalcular2">Calcular</button>
+            <button id="btnLimpiar2">Limpiar</button>
+        </section>
+        <section class="contenedor3">
+            <header>
+                <br>
+                <h3>Calculadora de Cotizacion</h3>
+                <br>
+            </header>
+            <label class="lbl1" for="">NO. Cotizacion</label>
+            <label class="lbl1" for="">Descripcion</label>
+            <label class="lbl1" for="">Precio</label>
+            <label class="lbl1" for="">Porcentaje de pago inicial</label>
+            <label class="lbl1" for="">Plazo</label>
+            <hr>
+            <input class="input3" type="number" name="coti" id="idCoti" required>
+            <input class="input3" type="text" name="desc" id="idDesc" required>
+            <input class="input3" type="number" name="prec" id="idPrec" required>
+            <select class="input3" name="porc" id="idPorc" required>
+                <option value="1">5%</option>
+                <option value="2">10%</option>
+                <option value="3">25%</option>
+            </select>
+            <select class="input3" name="plaz" id="idPlaz" required>
+                <option value="1">24 meses</option>
+                <option value="2">36 meses</option>
+                <option value="3">48 meses</option>
+            </select>
+            <br>
+            <br>
+            <label class="lbl1" for="">Pago Incial:</label>
+            <input class="input3" type="text" name="pagIni" id="idPagIni" readonly>
+            <br>
+            <label class="lbl1" for="">Total a Fin:</label>
+            <input class="input3" type="text" name="total" id="idTotal" readonly>
+            <br>
+            <label class="lbl1" for="">Pago Mensual:</label>
+            <input class="input3" type="text" name="pagMen" id="idPagMen" readonly>
+            <br>
+            <br>
+            <button id="btnCalcular3">Calcular</button>
+            <button id="btnLimpiar3">Limpiar</button>
+        </section>
     </center>
     <script src="../Assets/js/script.js"></script>
 </body>
